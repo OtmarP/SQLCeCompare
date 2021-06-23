@@ -1,9 +1,20 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCeCompare", "SQLCeCompare\SQLCeCompare.csproj", "{AA0B440F-BE54-457E-8A58-B95754C58AC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution_Folder", "Solution_Folder", "{A902040B-EDBE-4A9A-A551-8B0625DC4E92}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{AE2FF7BF-7A25-497A-8B3A-B62148985215}"
+	ProjectSection(SolutionItems) = preProject
+		..\img\Bild_20210609_134636_001.png = ..\img\Bild_20210609_134636_001.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE2FF7BF-7A25-497A-8B3A-B62148985215} = {A902040B-EDBE-4A9A-A551-8B0625DC4E92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8609D3C4-4025-4FA4-9659-4F803DC5FE57}
