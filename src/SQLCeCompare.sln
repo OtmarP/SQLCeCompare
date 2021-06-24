@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{AE2FF7BF-7A25-497A-8B3A-B62148985215}"
 	ProjectSection(SolutionItems) = preProject
 		..\img\Bild_20210609_134636_001.png = ..\img\Bild_20210609_134636_001.png
+		..\img\Bild_20210623_150513_001.png = ..\img\Bild_20210623_150513_001.png
 	EndProjectSection
 EndProject
 Global
